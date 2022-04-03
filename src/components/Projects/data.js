@@ -13,13 +13,13 @@ export const App = () => (
     <ProjectLink url={projectsData.url}></ProjectLink>
 )
 
-export const projectsData = [{
+export const projectsData = [{ 
     img: project1,
     alt: 'Projeto Pokedex',
     name: 'Projeto Pokedex',
     desc: 'Projeto criado em HTML, CSS e JS.',
     button: 'Ver projeto',
-    url: 'https://antoniowingert.github.io/pizzariawingert/'
+    url: 'https://antoniowingert.github.io/Projeto-Pokedex/'
 },{
     img: project2,
     alt: 'Projeto Pizzaria',

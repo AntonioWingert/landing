@@ -13,7 +13,7 @@ const Products = ({heading, data}) => {
                                 <ProjectsInfo>
                                     <ProjectsTitle>{project.name}</ProjectsTitle>
                                     <ProjectsDesc>{project.desc}</ProjectsDesc>
-                                    <ProjectsButton>{project.button}</ProjectsButton>
+                                    <ProjectsButton href={project.url} target="_blank">{project.button}</ProjectsButton>
                                 </ProjectsInfo>
                         </ProjectsCard>
                     )

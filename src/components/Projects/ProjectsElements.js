@@ -54,13 +54,14 @@ export const ProjectsDesc = styled.p`
     margin-bottom: 1rem;
 `;
 
-export const ProjectsButton = styled.button`
+export const ProjectsButton = styled.a`
     font-size: 1rem;
     padding: 1rem 4rem;
     border: none;
     background: #141E27;
     color: #fff;
     transition: 0.2s ease-out;
+    text-decoration: none;
     
 
     &:hover {
