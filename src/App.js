@@ -9,9 +9,9 @@ import { projectsData } from './components/Projects/data';
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <GlobalStyle />
-    <Navbar />;
+    <Navbar />
     <Container />
     <Projects heading='Conheça meus projetos' data={projectsData}/>
     <Footer />
