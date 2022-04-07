@@ -6,7 +6,7 @@ import { GlobalStyle } from './GlobalStyles';
 import Container from './components/Container';
 import Projects from './components/Projects';
 import { projectsData } from './components/Projects/data';
-import { Form } from './components/Form';
+import { Form } from './components/Form - Social';
 
 function App() {
   return (

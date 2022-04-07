@@ -10,21 +10,51 @@ export const FormWrapper = styled.div`
     
     
 
-    @media screen and (max-width:450px) {
+    @media screen and (max-width:500px) {
         height:100%;
         width: 100%;
         overflow-y: hidden;
        
-    }
+}
+    h2 {
+            font-size: clamp(2rem, 1.5vw, 3rem);
+            padding-left: 15px;
+        }
     `;
 
+export const SocialIcons = styled.div`
+    display: flex;
+    flex-direction: column;
+    max-width: 10px;
+    margin-top: 30px;
+  
+    
+    
 
-export const FormForm = styled.form`
+    @media screen and (max-width:500px) {
+            margin-left:25px;
+    }
+`;
+
+export const SocialIconsLink = styled.a`
+    padding: 10px;
+    color: black;
+    font-size: 50px;
+    text-decoration: none;
+
+    h3 {
+        font-size: 20px;       
+    }
+    
+`;
+
+export const FormForm = styled.div`
     display: flex;
     flex-direction: column;
     width: 80%;
     gap: 10px;
     align-items: flex-end;
+    margin-top: -50vh;
     
 
 
@@ -35,9 +65,11 @@ export const FormForm = styled.form`
 
     }
 
-    @media screen and (max-width:450px) {
+    @media screen and (max-width:620px) {
             margin-left:15px;
-    }
+            margin-top: auto;
+            padding-top: 30px;
+    }      
     `;
 
 
